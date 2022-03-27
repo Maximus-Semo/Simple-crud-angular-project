@@ -47,9 +47,9 @@ export class DialogComponent implements OnInit {
     if(this.productForm.valid){
       this.api.postProdcut(this.productForm.value).subscribe({
         next:(res)=> {
-          alert("proudact added successFully");
           this.productForm.reset();
           this.dialogRef.close("save");
+          alert("proudact added successFully");
 
         }, 
         error:()=> {

@@ -15,8 +15,9 @@ export class ApiService {
   getProdcut(){
     return this.http.get<any>("http://localhost:3000/productList/")
   }
-  putProduct(data:any, id : number){
-    return this.http.put<any>("http://localhost:3000/productList/" + data, id )
+  putProduct(data:any, id:number){
+    console.log("sss")
+    return this.http.put<any>("http://localhost:3000/productList/" + id,data )
   }
 
   deleteProudct(id:number){

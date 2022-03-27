@@ -1,16 +1,7 @@
 {
   "productList": [
     {
-      "productName": "max",
-      "category": "Vegetables",
-      "price": 102,
-      "freshess": "Refurbished",
-      "comment": false,
-      "data": "2001-01-31T22:00:00.000Z",
-      "id": 2
-    },
-    {
-      "productName": "maximos",
+      "productName": "maximosjj",
       "category": "Fruits",
       "price": 200,
       "freshess": "Brand New",
@@ -35,6 +26,15 @@
       "comment": false,
       "data": "2001-03-03T22:00:00.000Z",
       "id": 8
+    },
+    {
+      "productName": "max",
+      "category": "Vegetables",
+      "price": 22,
+      "freshess": "Brand New",
+      "comment": false,
+      "data": "2022-03-15T22:00:00.000Z",
+      "id": 9
     }
   ],
   "comments": [
