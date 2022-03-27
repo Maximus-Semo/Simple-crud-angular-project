@@ -1,0 +1,50 @@
+{
+  "productList": [
+    {
+      "productName": "max",
+      "category": "Vegetables",
+      "price": 102,
+      "freshess": "Refurbished",
+      "comment": false,
+      "data": "2001-01-31T22:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "maximos",
+      "category": "Fruits",
+      "price": 200,
+      "freshess": "Brand New",
+      "comment": "heloo",
+      "data": "2022-03-10T22:00:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Mango",
+      "category": "Vegetables",
+      "price": 1.32,
+      "freshess": "Secound Hand",
+      "comment": "hello i am max i here becuse help you ",
+      "data": "2022-03-11T22:00:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "lol",
+      "category": "Vegetables",
+      "price": 2211,
+      "freshess": "Secound Hand",
+      "comment": false,
+      "data": "2001-03-03T22:00:00.000Z",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
