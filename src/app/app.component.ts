@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
       width:"40%"
     }).afterClosed().subscribe(val=> {
       if(val == 'save'){
-        this.getAllProducts();
+        this.getAllProducts(); // check about them
       }
     })
   }
@@ -65,7 +65,8 @@ export class AppComponent implements OnInit {
     this.api.deleteProudct(id)
     .subscribe({
       next:(res)=>{
-        alert("product Deleted succssfully")
+        alert("product Deleted succssfully");
+        this.getAllProducts();
       },
       error:()=>{
         alert("Error While deleting the product!!")

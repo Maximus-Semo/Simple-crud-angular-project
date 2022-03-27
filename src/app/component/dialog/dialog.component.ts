@@ -1,7 +1,9 @@
 import { ApiService } from 'src/app/service/api.service';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import {MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog'
+import {MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import { AppComponent } from 'src/app/app.component';
+
 @Component({
   selector: 'AppDialog',
   templateUrl: './dialog.component.html',
@@ -16,7 +18,8 @@ export class DialogComponent implements OnInit {
   constructor(private formBuilder :FormBuilder,
   @Inject(MAT_DIALOG_DATA) public editData :any,
   private api :ApiService,
-  private dialogRef: MatDialogRef<DialogComponent>) { }
+  private dialogRef: MatDialogRef<DialogComponent>,
+  ) { }
 
   ngOnInit(): void { // i need to understand more !!!
 
